@@ -67,7 +67,10 @@ nav{
         font-weight: bold;
         .img_profile{
             padding: 0px;
-         margin-right: 5px;
+           margin-right: 5px;
+           @include sm{
+            display: initial;
+           }
         }
         img{
             width: 40px;
