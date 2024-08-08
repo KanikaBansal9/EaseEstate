@@ -4,7 +4,7 @@ import "leaflet/dist/leaflet.css";
 import Pin from '../pin/pin';
 function Map({items}){
   return (
-    <MapContainer center={[28.642087, 77.297980]} zoom={13} scrollWheelZoom={false} className='map'>
+    <MapContainer center={[20.8069, 75.0878]} zoom={6} scrollWheelZoom={false} className='map'>
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
